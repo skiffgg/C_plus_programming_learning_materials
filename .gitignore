@@ -1,32 +1,10 @@
-# Prerequisites
-*.d
+# retain all file for source and header files
+!*.cpp
+!*.h
+!*.hpp
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Exclude .vscode folder in the root directory
+/.vscode
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Exclude .vs folder in the root directory
+.vs/
