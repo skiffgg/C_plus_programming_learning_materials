@@ -4,7 +4,7 @@
 !*.hpp
 
 # Exclude .vscode folder in the root directory
-/.vscode
+.vscode/
 
 # Exclude .vs folder in the root directory
 .vs/
